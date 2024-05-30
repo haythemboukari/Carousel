@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -8,7 +7,6 @@ body {
 .hidden {
   visibility: hidden;
 }
-
 
 
 .toolbar-btn {
@@ -25,8 +23,6 @@ body {
   border-radius: 8px;
 }
 
-
-
 .toolbar-btn i {
   margin-right: 5px;
 }
@@ -40,24 +36,18 @@ body {
 }
 
 
-
 .navigation {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
+
 .carousel-container {
   text-align: center;
   margin-top: 50px;
 }
 
-.carousel img {
-  display: none;
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0 auto;
-}
 
 .carousel {
   width: 600px;
@@ -74,7 +64,6 @@ body {
   object-fit: cover;
 }
 
-
 .carousel img:first-child {
   display: block;
 }
@@ -86,6 +75,7 @@ body {
 button {
   margin: 0 10px;
 }
+
 
 .thumbnails-container {
   margin-top: 20px;
@@ -105,6 +95,14 @@ button {
   position: relative;
 }
 
+.thumbnails img {
+  width: 100px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
 .thumbnail-nav {
   position: absolute;
   top: 50%;
@@ -119,12 +117,6 @@ button {
   right: 0;
 }
 
-.thumbnails img {
-  width: 100px;
-  height: auto;
-  margin: 0 5px;
-  cursor: pointer;
-}
 
 .fade-in {
   opacity: 1;

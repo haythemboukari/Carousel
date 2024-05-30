@@ -6,20 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sliders</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="carousel-container">
-
     <h1 id="title">Sliders</h1>
+
+    <!-- Barre d'outils -->
     <div class="toolbar hidden">
-      <button id="prevBtn"><i class="fas fa-backward"></i> Précédent</button>
-      <button id="playBtn"><i class="fas fa-play"></i> Lire</button>
-      <button id="nextBtn">Suivant <i class="fas fa-forward"></i></button>
-      <button id="randomBtn">Aléatoire <i class="fas fa-random"></i></button>
+      <button id="prevBtn" class="toolbar-btn"><i class="fas fa-backward"></i> Précédent</button>
+      <button id="playBtn" class="toolbar-btn"><i class="fas fa-play"></i> Lire</button>
+      <button id="nextBtn" class="toolbar-btn">Suivant <i class="fas fa-forward"></i></button>
+      <button id="randomBtn" class="toolbar-btn">Aléatoire <i class="fas fa-random"></i></button>
     </div>
+
+    <!-- Carousel -->
     <div class="carousel">
       <img src="Photos/Carousel1.jpg" alt="Image 1">
       <img src="Photos/Carousel2.jpg" alt="Image 2">
@@ -33,10 +35,11 @@
       <img src="Photos/Carousel12.jpg" alt="Image 10">
       <img src="Photos/Carousel13.jpg" alt="Image 11">
       <img src="Photos/Carousel14.jpg" alt="Image 12">
-
     </div>
+
+    <!-- Miniatures -->
     <div class="thumbnails-container">
-      <button id="prevThumbBtn"><i class="fas fa-backward"></i> Précédent</button>
+      <button id="prevThumbBtn" class="toolbar-btn"><i class="fas fa-backward"></i> Précédent</button>
       <div class="thumbnails">
         <img src="Photos/Carousel1.jpg" alt="Miniature 1">
         <img src="Photos/Carousel2.jpg" alt="Miniature 2">
@@ -50,17 +53,14 @@
         <img src="Photos/Carousel12.jpg" alt="Miniature 10">
         <img src="Photos/Carousel13.jpg" alt="Miniature 11">
         <img src="Photos/Carousel14.jpg" alt="Miniature 12">
-
       </div>
-      <button id="nextThumbBtn">Suivant <i class="fas fa-forward"></i></button>
+      <button id="nextThumbBtn" class="toolbar-btn">Suivant <i class="fas fa-forward"></i></button>
     </div>
-
-
   </div>
+
+  <!-- Navigation -->
   <div class="navigation">
     <a href="#" id="toggleToolbar">Barre d'outils</a>
-  </div>
-
   </div>
 
   <script src="script.js"></script>
